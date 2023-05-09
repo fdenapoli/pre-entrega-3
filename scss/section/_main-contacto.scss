@@ -1,0 +1,68 @@
+.container-contacto {
+    display: flex;
+    padding: 75px;
+  }
+  
+  .formulario-contacto {
+    width: 450px;
+    margin: auto;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+    background: rgba(0, 0, 0, 0.2);
+  }
+  
+  .formulario-contacto h2 {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  
+  .formulario-contacto input,
+  textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    border: none;
+  }
+  
+  .formulario-contacto textarea {
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+  }
+  
+  #boton {
+    background-color: #bde0fe;
+    padding: 10px;
+  }
+  
+  #boton:hover {
+    cursor: pointer;
+  }
+  
+  .mapa {
+    width: 450px;
+    margin: auto;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+    background: rgba(0, 0, 0, 0.2);
+  }
+  
+  .mapa h2 {
+    text-align: center;
+  }
+  
+  .mapa iframe {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    border: none;
+  }
+
+  

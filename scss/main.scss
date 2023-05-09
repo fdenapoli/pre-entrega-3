@@ -1,0 +1,16 @@
+@import './section/reset';
+@import './section/header';
+@import './section/main-index';
+@import './section/main-quien-soy';
+@import './section/main-galeria-de-fotos';
+@import './section/main-contacto';
+@import './section/main-servicios';
+@import './section/footer';
+@import './section/media-query';
+
+
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&family=Roboto+Mono:wght@100&display=swap");
+
+body {
+    font-family: "Quicksand", sans-serif;
+  }
