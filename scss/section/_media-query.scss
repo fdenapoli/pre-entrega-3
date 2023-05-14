@@ -43,3 +43,42 @@
       grid-gap: 10px;
     }
   }
+
+  @media (max-width: 767px) {
+    .container-quien-soy {
+      flex-direction: column;
+    }
+  
+    .container-quien-soy img {
+      width: 100%;
+      max-width: 300px;
+    }
+  
+    .quien-soy-texto {
+      width: 100%;
+    }
+  
+    .container-quien-soy-texto p {
+      margin-bottom: 20px;
+    }
+  }
+
+  @media (max-width: 1023px) {
+    .container-quien-soy {
+      flex-direction: column;
+      max-width: 768px; 
+    }
+  
+    .container-quien-soy img {
+      max-width: 80%;
+    }
+  
+    .quien-soy-texto {
+      width: 100%;
+      max-width: 600px;
+    }
+  
+    .container-quien-soy-texto p {
+      margin-bottom: 40px;
+    }
+  }
