@@ -6,10 +6,10 @@
       padding: 20px;
     }
     .formulario-contacto {
-      width: 300px;
+      width: 100%;
     }
     .mapa {
-      width: 300px;
+      width: 100%;
     }
     .mapa iframe {
       width: 100%;
@@ -65,7 +65,6 @@
   }
 
   
-
   @media screen and (max-width: 1024px) {
     .presentacion {
       padding-bottom: 30px;
@@ -142,6 +141,14 @@
         width: 100%;
         margin-right: 0;
       }
+    }
+  }
+
+  @media (max-width: 768px) {
+    footer .redes-sociales img {
+      width: 30px;
+      height: 20px;
+      margin: 15px;
     }
   }
   
