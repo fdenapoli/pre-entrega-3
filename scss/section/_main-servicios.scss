@@ -1,78 +1,58 @@
+.services-section {
+  padding: 20px;
 
-#main-servicios h1{
+  .services-title {
     text-align: center;
-    padding: 30px;
-}
-
-
-.semipermanente {
-  display: flex;
-  flex-direction: row;
-  height: 500px;
-  width: 100%;;
-}
-
-.container-semipermanente {
-  height: auto;
-  width: 70%;
-}
-
-.container-semipermanente h2{
-    font-size: 40px;
-    text-align: center;
-    margin: 40px;
-}
-
-.container-semipermanente p{
-    text-align: justify;
-    font-size: 20px;
-    padding: 30px;
-}
-
-.container-semipermanente-img {
-    height: auto;
-    width: 30%;
+    font-size: 24px;
+    margin-bottom: 20px;
   }
 
-.container-semipermanete-img img {
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: cover;
-}
+  .services-container {
+    display: flex;
+    justify-content: space-between;
+  }
 
-.capping {
-  display: flex;
-  flex-direction: row-reverse;
-  height: 500px;
-  width: 100%;
-  margin-top: 20px;
-}
-
-.container-capping {
-  height: auto;
-  width: 70%;
-}
-
-.container-capping h2{
-    font-size: 40px;
+  .service {
+    width: 48%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
     text-align: center;
-    margin: 40px;
-}
 
-.container-capping p{
-    text-align: justify;
-    font-size: 20px;
-    padding: 30px;
-}
+    &-title {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
 
-.container-capping-img {
-  height: auto;
-  width: 30%;
-  margin-left: 75px;
-}
+    &-image {
+      width: 100%;
+      height: auto;
+      max-width: 200px;
+      margin: 0 auto;
+      display: block;
+      margin-bottom: 10px;
+    }
 
-.container-capping-img img {
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: cover;
+    &-description {
+      font-size: 16px;
+      line-height: 1.4;
+      text-align: justify;
+    }
+
+    &-button,
+    &-button-semipermanente {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #bde0fe;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+
+      &:active {
+        background-color: #3a86ff;
+      }
+    }
+  }
 }
