@@ -1,46 +1,45 @@
-body {
-  font-family: "Quicksand", sans-serif;
+#main-index {
+  text-align: center;
 }
-  
-  .banner {
-    width: 100%;
-    height: 500px;
-  }
-  
-  .banner img {
+
+.banner {
+  width: 100%;
+  height: 500px;
+
+  img {
     display: block;
     margin: auto;
     width: 100%;
     height: 500px;
-    object-fit: cover;
   }
-  
-  .main-index {
-    text-align: center;
-  }
-  
-  .presentacion-contenido {
-    width: 90%;
-    margin: 0 auto;
-  }
-  
-  .presentacion {
-    width: 100%;
-    height: 400%;
-    position: relative;
-    margin: 0;
-    padding-top: 30px;
-  }
-  
-  .presentacion h1 {
+}
+
+.main-index {
+  text-align: center;
+}
+
+.presentacion-contenido {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.presentacion {
+  width: 100%;
+  height: 400%;
+  position: relative;
+  margin: 0;
+  padding-top: 30px;
+
+  h1 {
     font-size: 50px;
     text-align: center;
     padding: 30px;
   }
-  
-  .presentacion p {
+
+  p {
     letter-spacing: 4px;
     padding: 2% 0;
     line-height: 35px;
     text-align: justify;
   }
+}
