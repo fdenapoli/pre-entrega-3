@@ -44,42 +44,27 @@
     }
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: 1024px) {
     .container-quien-soy {
       flex-direction: column;
-    }
+      align-items: center;
+      
+      img {
+        width: 100%;
+        max-width: 420px;
+        margin-bottom: 40px;
+      }
   
-    .container-quien-soy img {
-      width: 100%;
-      max-width: 420px;
-      margin-bottom: 20px;
-    }
-  
-    .quien-soy-texto {
-      width: 100%;
-      text-align: center;
-    }
-  }
-  
-  @media (max-width: 1023px) {
-    .container-quien-soy img {
-      max-width: 80%;
-    }
-  
-    .quien-soy-texto {
-      max-width: 550px;
-      margin: 0 auto;
+      &-texto {
+        width: 100%;
+        max-width: 550px;
+        margin-bottom: 0;
+        text-align: center;
+      }
     }
   }
 
-    .quien-soy-texto h1{
-      font-size: 30px;
-    }
-
-    .quien-soy-texto p{
-      font-size: 12px;
-    }
-
+  
 
   @media screen and (max-width: 1024px) {
     .presentacion {
@@ -134,14 +119,29 @@
     }
   }
   
-
-  @media (max-width: 768px) {
+  @media (min-width: 768px) {
     .services-container {
-      flex-direction: column;
+      flex-wrap: wrap;
+
+      .service {
+        width: 48%;
+        margin-right: 4%;
+
+        &:nth-child(2n) {
+          margin-right: 0;
+        }
+      }
     }
-  
-    .service {
-      width: 100%;
+  }
+
+  @media (max-width: 767px) {
+    .services-container {
+      flex-wrap: wrap;
+
+      .service {
+        width: 100%;
+        margin-right: 0;
+      }
     }
   }
   
