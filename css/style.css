@@ -61,7 +61,7 @@ body {
 
 .seccion-quien-soy {
   width: 100%;
-  padding: 78px 0px; }
+  padding: 120px 0px; }
   .seccion-quien-soy img {
     height: auto;
     width: 420px; }
@@ -89,6 +89,7 @@ body {
     text-align: justify; }
 
 .titulo-galeria {
+  padding: 100px;
   text-align: center;
   font-size: 50px; }
 
@@ -108,51 +109,60 @@ body {
 
 .container-contacto {
   display: flex;
-  padding: 75px; }
-  .container-contacto .formulario-contacto {
-    width: 450px;
-    margin: auto;
-    padding: 10px 20px;
-    box-sizing: border-box;
-    margin-top: 20px;
-    border-radius: 7px;
-    background: rgba(0, 0, 0, 0.2); }
-    .container-contacto .formulario-contacto h2 {
-      text-align: center;
-      margin: 0;
-      margin-bottom: 10px; }
-    .container-contacto .formulario-contacto input,
-    .container-contacto .formulario-contacto textarea {
-      width: 100%;
-      margin-bottom: 20px;
-      padding: 7px;
-      box-sizing: border-box;
-      border: none; }
-    .container-contacto .formulario-contacto textarea {
-      min-height: 100px;
-      max-height: 200px;
-      max-width: 100%; }
-    .container-contacto .formulario-contacto #boton {
-      background-color: #bde0fe;
-      padding: 10px; }
-      .container-contacto .formulario-contacto #boton:hover {
-        cursor: pointer; }
-  .container-contacto .mapa {
-    width: 450px;
-    margin: auto;
-    padding: 10px 20px;
-    box-sizing: border-box;
-    margin-top: 20px;
-    border-radius: 7px;
-    background: rgba(0, 0, 0, 0.2); }
-    .container-contacto .mapa h2 {
-      text-align: center; }
-    .container-contacto .mapa iframe {
-      width: 100%;
-      margin-bottom: 20px;
-      padding: 7px;
-      box-sizing: border-box;
-      border: none; }
+  padding: 120px; }
+
+.formulario-contacto {
+  width: 450px;
+  margin: auto;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  border-radius: 7px;
+  background: rgba(0, 0, 0, 0.2); }
+
+.formulario-contacto h2 {
+  text-align: center;
+  margin: 0;
+  margin-bottom: 10px; }
+
+.formulario-contacto input,
+textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+  border: none; }
+
+.formulario-contacto textarea {
+  min-height: 100px;
+  max-height: 200px;
+  max-width: 100%; }
+
+#boton {
+  background-color: #bde0fe;
+  padding: 10px; }
+
+#boton:hover {
+  cursor: pointer; }
+
+.mapa {
+  width: 450px;
+  margin: auto;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  border-radius: 7px;
+  background: rgba(0, 0, 0, 0.2); }
+
+.mapa h2 {
+  text-align: center; }
+
+.mapa iframe {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+  border: none; }
 
 #main-servicios {
   background-color: #ffeedd; }
@@ -229,11 +239,19 @@ footer .redes-sociales .instagram:hover {
     justify-content: center;
     padding: 20px; }
   .formulario-contacto {
-    width: 100%; }
+    width: 300px; }
   .mapa {
-    width: 100%; }
+    width: 300px; }
   .mapa iframe {
     width: 100%; } }
+
+@media screen and (min-width: 768px) {
+  .container-contacto {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 100px; } }
 
 @media screen and (min-width: 768px) {
   .container-contacto {
