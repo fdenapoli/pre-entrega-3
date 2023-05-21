@@ -123,10 +123,15 @@ body {
 #main-contacto {
   background-color: #ffeedd;
   margin-top: 100px; }
+  #main-contacto h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+    padding-top: 50px; }
 
 .container-contacto {
   display: flex;
-  padding: 120px; }
+  padding: 80px; }
 
 .container-formulario {
   width: 450px;
@@ -136,31 +141,26 @@ body {
   margin-top: 20px;
   border-radius: 7px;
   background: rgba(0, 0, 0, 0.2); }
-
-.container-formulario h2 {
-  text-align: center;
-  margin: 0;
-  margin-bottom: 10px; }
-
-.container-formulario input,
-textarea {
-  width: 100%;
-  margin-bottom: 20px;
-  padding: 7px;
-  box-sizing: border-box;
-  border: none; }
-
-.container-formulario textarea {
-  min-height: 100px;
-  max-height: 200px;
-  max-width: 100%; }
-
-#boton {
-  background-color: #bde0fe;
-  padding: 10px; }
-
-#boton:hover {
-  cursor: pointer; }
+  .container-formulario h2 {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 10px; }
+  .container-formulario input,
+  .container-formulario textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    border: none; }
+  .container-formulario textarea {
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%; }
+  .container-formulario #boton {
+    background-color: #bde0fe;
+    padding: 10px; }
+    .container-formulario #boton:hover {
+      cursor: pointer; }
 
 .container-mapa {
   width: 450px;
@@ -170,16 +170,14 @@ textarea {
   margin-top: 20px;
   border-radius: 7px;
   background: rgba(0, 0, 0, 0.2); }
-
-.container-mapa h2 {
-  text-align: center; }
-
-.container-mapa iframe {
-  width: 100%;
-  margin-bottom: 20px;
-  padding: 7px;
-  box-sizing: border-box;
-  border: none; }
+  .container-mapa h2 {
+    text-align: center; }
+  .container-mapa iframe {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    border: none; }
 
 #main-servicios {
   background-color: #ffeedd; }
@@ -188,7 +186,7 @@ textarea {
   padding: 20px; }
   .services-section .services-title {
     text-align: center;
-    font-size: 24px;
+    font-size: 40px;
     margin-bottom: 20px; }
   .services-section .services-container {
     display: flex;
@@ -201,7 +199,7 @@ textarea {
     margin-bottom: 20px;
     text-align: center; }
     .services-section .service-title {
-      font-size: 18px;
+      font-size: 24px;
       margin-bottom: 10px; }
     .services-section .service-image {
       width: 100%;
@@ -211,7 +209,7 @@ textarea {
       display: block;
       margin-bottom: 10px; }
     .services-section .service-description {
-      font-size: 16px;
+      font-size: 20px;
       line-height: 1.4;
       text-align: justify; }
     .services-section .service-button, .services-section .service-button-semipermanente {
@@ -287,10 +285,11 @@ footer {
     padding: 15px;
     grid-gap: 10px; } }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .container-quien-soy {
     flex-direction: column;
-    align-items: center; }
+    align-items: center;
+    height: 550px; }
     .container-quien-soy img {
       width: 100%;
       max-width: 420px;

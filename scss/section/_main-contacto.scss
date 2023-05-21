@@ -1,11 +1,18 @@
-#main-contacto{
+#main-contacto {
   background-color: #ffeedd;
   margin-top: 100px;
+  
+  h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+    padding-top: 50px;
+  }
 }
 
 .container-contacto {
   display: flex;
-  padding: 120px;
+  padding: 80px;
 }
 
 .container-formulario {
@@ -16,36 +23,36 @@
   margin-top: 20px;
   border-radius: 7px;
   background: rgba(0, 0, 0, 0.2);
-}
-
-.container-formulario h2 {
-  text-align: center;
-  margin: 0;
-  margin-bottom: 10px;
-}
-
-.container-formulario input,
-textarea {
-  width: 100%;
-  margin-bottom: 20px;
-  padding: 7px;
-  box-sizing: border-box;
-  border: none;
-}
-
-.container-formulario textarea {
-  min-height: 100px;
-  max-height: 200px;
-  max-width: 100%;
-}
-
-#boton {
-  background-color: #bde0fe;
-  padding: 10px;
-}
-
-#boton:hover {
-  cursor: pointer;
+  
+  h2 {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    border: none;
+  }
+  
+  textarea {
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+  }
+  
+  #boton {
+    background-color: #bde0fe;
+    padding: 10px;
+    
+    &:hover {
+      cursor: pointer;
+    }
+  }
 }
 
 .container-mapa {
@@ -56,16 +63,16 @@ textarea {
   margin-top: 20px;
   border-radius: 7px;
   background: rgba(0, 0, 0, 0.2);
-}
-
-.container-mapa h2 {
-  text-align: center;
-}
-
-.container-mapa iframe {
-  width: 100%;
-  margin-bottom: 20px;
-  padding: 7px;
-  box-sizing: border-box;
-  border: none;
+  
+  h2 {
+    text-align: center;
+  }
+  
+  iframe {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    border: none;
+  }
 }
