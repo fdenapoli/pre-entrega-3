@@ -1,8 +1,12 @@
+$primary-color: #ffeedd;
+$secondary-color: #ffd8be;
+
+
 footer {
   min-height: 10vh;
   width: 100%;
   margin-top: 0px;
-  background-color: #ffd8be;
+  background-color: $secondary-color;
 
   .container-redes-sociales {
     display: flex;

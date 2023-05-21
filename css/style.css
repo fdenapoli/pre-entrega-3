@@ -286,10 +286,13 @@ footer {
     grid-gap: 10px; } }
 
 @media (max-width: 768px) {
+  #main-quien-soy {
+    margin-top: 100px; }
+  .seccion-quien-soy {
+    padding: 120px 0px 0px; }
   .container-quien-soy {
     flex-direction: column;
-    align-items: center;
-    height: 550px; }
+    align-items: center; }
     .container-quien-soy img {
       width: 100%;
       max-width: 420px;

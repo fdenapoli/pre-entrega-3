@@ -1,6 +1,10 @@
+$primary-color: #ffeedd;
+$secondary-color: #bde0fe;
+$accent-color: #3a86ff;
+
 #main-index {
   text-align: center;
-  background-color: #ffeedd;
+  background-color: $primary-color;
   margin-top: 100px;
 }
 
