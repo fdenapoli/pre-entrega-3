@@ -1,6 +1,6 @@
 #main-contacto{
-  background-color: #ffeedd
-  
+  background-color: #ffeedd;
+  margin-top: 100px;
 }
 
 .container-contacto {
@@ -8,7 +8,7 @@
   padding: 120px;
 }
 
-.formulario-contacto {
+.container-formulario {
   width: 450px;
   margin: auto;
   padding: 10px 20px;
@@ -18,13 +18,13 @@
   background: rgba(0, 0, 0, 0.2);
 }
 
-.formulario-contacto h2 {
+.container-formulario h2 {
   text-align: center;
   margin: 0;
   margin-bottom: 10px;
 }
 
-.formulario-contacto input,
+.container-formulario input,
 textarea {
   width: 100%;
   margin-bottom: 20px;
@@ -33,7 +33,7 @@ textarea {
   border: none;
 }
 
-.formulario-contacto textarea {
+.container-formulario textarea {
   min-height: 100px;
   max-height: 200px;
   max-width: 100%;
@@ -48,7 +48,7 @@ textarea {
   cursor: pointer;
 }
 
-.mapa {
+.container-mapa {
   width: 450px;
   margin: auto;
   padding: 10px 20px;
@@ -58,11 +58,11 @@ textarea {
   background: rgba(0, 0, 0, 0.2);
 }
 
-.mapa h2 {
+.container-mapa h2 {
   text-align: center;
 }
 
-.mapa iframe {
+.container-mapa iframe {
   width: 100%;
   margin-bottom: 20px;
   padding: 7px;
